@@ -46,3 +46,11 @@ Provides sample data for testing:
 1. Create a database in MySQL, MariaDB, or PostgreSQL
 2. Run the `queries.sql` file to create tables and insert sample data
 3. Execute each query in the "Required Queries" section to see results
+
+## ERD Link
+
+[View Entity Relationship Diagram](https://lucid.app/lucidchart/5ae772cd-c070-4e1e-897b-7568e99a9c5a/view?viewport_loc=-1775%2C-668%2C4336%2C2006%2C0_0)
+
+## Viva Video Link
+
+[Watch Viva Presentation](https://drive.google.com/file/d/1Mr3t522ETgMjYkc4OkoO5-N0jw8ahg9r/view?usp=sharing)

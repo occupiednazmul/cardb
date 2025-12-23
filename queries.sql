@@ -17,8 +17,8 @@ CREATE TABLE vehicles (
   vehicle_id INT PRIMARY KEY,
   name VARCHAR(100) NOT NULL,
   type VARCHAR(20) NOT NULL CHECK (type IN ('car', 'bike', 'truck')),
-  model INT NOT NULL,
-  registration_number VARCHAR(50) NOT NULL UNIQUE,
+  model VARCHAR(20) NOT NULL,
+  registration_number VARCHAR(20) NOT NULL UNIQUE,
   rental_price DECIMAL(10,2) NOT NULL CHECK (rental_price >= 0),
   status VARCHAR(20) NOT NULL CHECK (status IN ('available', 'rented', 'maintenance'))
 );
